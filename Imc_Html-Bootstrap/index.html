@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="bootStrap/style.css" rel="stylesheet" />
+        <title>IMC HTML BOOTSTRAP</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <img src="/assets/powered.png" class="col-10 col-sm-6 col-md-3 mt-5" />
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <h1 class="text-dark">Calcule o seu IMC.</h1>
+                    <p class="fs-6">
+                        IMC é a sigla para Indice de massa Copórea, parâmetro adotado pela Organização Mundial de Saúde
+                        para calcular o peso ideal de uma pessoa.
+                    </p>
+                    <!-- Criar um fórmulario aberto e um botao -->
+                    <input
+                        type="number"
+                        class="form-control mt-4"
+                        id="peso"
+                        placeholder="Digite seu Peso, Ex: (73.4)Kg"
+                    />
+                    <input
+                        type="number"
+                        class="form-control mt-3"
+                        id="altura"
+                        placeholder="Digite sua Altura, Ex: (1.75)m"
+                    />
+                    <button class="btn btn-primary my-4 w-100 py-sm-2" id="calcular">Calcular</button>
+                </div>
+                <div class="col-md-6">
+                    <div class="row" id="linha">
+                        <!-- <div class="col-6">
+                            <div class="card bg-secondary text-light text-center">
+                                <img src="/assets/down.png" class="row align-self-center w-25 mt-3" alt="..." />
+
+                                <div class="mt-2">
+                                    <h5 class="card-title fw-bold">Magreza</h5>
+                                    <p class="fs-7">IMC está entre 0 e 18,5</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="card bg-success text-light text-center">
+                                <img src="/assets/up.png" class="row align-self-center w-25 mt-3" alt="..." />
+
+                                <div class="mt-2">
+                                    <h5 class="card-title fw-bold">Normal</h5>
+                                    <p class="fs-7">IMC está entre 18,5 e 24,9</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 mt-3">
+                            <div class="card bg-warning text-light text-center">
+                                <img src="/assets/down.png" class="row align-self-center w-25 mt-3" alt="..." />
+
+                                <div class="mt-2">
+                                    <h5 class="card-title fw-bold">Sobrepeso</h5>
+                                    <p class="fs-7">IMC está entre 24,9 e 30</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 mt-3">
+                            <div class="card bg-danger text-light text-center">
+                                <img src="/assets/down.png" class="row align-self-center w-25 mt-3" alt="..." />
+
+                                <div class="mt-2">
+                                    <h5 class="card-title fw-bold">Magreza</h5>
+                                    <p class="fs-7">IMC está acima de 30</p>
+                                </div>
+                            </div>
+                        </div> -->
+                        <!-- <div class="col-12">
+                            <div class="card bg-danger text-light text-center">
+                                <img src="/assets/down.png" class="align-self-center w-25 mt-3" alt="..." />
+
+                                <div class="mt-2">
+                                    <h5 class="card-title fw-bold">Magreza</h5>
+                                    <p class="fs-7">IMC está acima de 30</p>
+                                </div>
+                            </div>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="bootStrap/bootStrap.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
